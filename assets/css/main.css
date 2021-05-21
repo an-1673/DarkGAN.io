@@ -25,6 +25,11 @@ body {
     line-height: 1;
 }
 
+img {
+    width : 10px;
+    height: auto; /*to preserve the aspect ratio of the image*/
+}
+
 ol, ul {
     list-style: none;
 }
@@ -2675,10 +2680,11 @@ table.alt tbody tr td {
     position: relative;
 }
 
+/*CHANGE HERE TO RESIZE SITE*/
 .wrapper > .inner {
     margin-left: auto;
     margin-right: auto;
-    width: 70em;
+    width: 90%;
     max-width: 100%;
 }
 
@@ -3222,7 +3228,7 @@ table.alt tbody tr td {
 #banner > .inner {
     margin-left: auto;
     margin-right: auto;
-    max-width: 70em;
+    max-width: 90%;
     width: 100%;
 }
 
